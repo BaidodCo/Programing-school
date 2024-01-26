@@ -1,2 +1,7 @@
 # Programing-school
-Programing School Template , Coding Website Tamplate 🏫
+
+<strong>A Coding Platform HTML, CSS, JS Tamplate</strong>
+
+# Copyrights 
+
+<b>BaidodGo©</b>
