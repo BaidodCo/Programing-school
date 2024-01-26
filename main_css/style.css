@@ -1,0 +1,448 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: normal;
+  text-decoration: none;
+}
+
+.bGo-nav {
+  top: 0;
+  position: fixed;
+  user-select: none;
+  width: 100%;
+  height: 50px;
+  background-color: #393939;
+  display: sticky;
+  overflow-x: auto;
+  margin:0;
+ 
+}
+
+.bGo-nav-links {
+  display: flex;
+}
+
+.bGo-nav-links i {
+  font-size: 19px;
+  color: #fff;
+  position: relative;
+  display: flex;
+  top: 16px;
+  margin:0;
+}
+
+.bGo-nav-links i:hover {
+  color: darkcyan;
+  transition: 1s;
+}
+
+.bGo-nav-links p{
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  margin:0;
+  left: 10px;
+  font-size: 20px;
+  padding-right: 52%;
+  top: 12px;
+}
+
+.bGo-nav-color {
+  color: yellow;
+  font-size: 23px;
+}
+
+.bGo-heading {
+  position:relative;
+  background: #1A1A1A;
+  height: 420px;
+  top: 50px;
+  user-select: none;
+  text-align: center;
+}
+
+
+
+
+
+.bGo-changing-text {
+  position: relative;
+  top: 60px;
+  font-size: 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+  width: 300px;
+ transition: all 3.25s; 
+  animation: slidedown 6s infinite;
+  -webkit-animation: slidedown 4s infinite;
+  padding-bottom: 60px;
+  -moz-animation: slidedown 4s infinite;
+}
+
+@keyframes slidedown {
+  0% {
+    opacity: 50;
+  }
+  
+  5% {
+    opacity: 0;
+    transform: translateY(0.5em);
+  }
+  
+  7% {
+    transform: translateY(-1em);
+  }
+  
+  10% {
+    opacity: 0;
+  }
+  
+  20% {
+    transform: translateY(0);
+    opacity: 100;
+  }
+}
+
+
+
+.bGo-description {
+  color: yellow;
+  font-weight: 600;
+  font-size: 14px;
+  position: relative;
+}
+
+
+.bGo-heading-svg {
+  height: 120px;
+  position: relative;
+  width: 100%;
+  top: -49.7px;
+  background: none;
+}
+
+.bGo-heading button {
+  width: 200px;
+  border: none;
+  border-radius: 30px;
+  height: 40px;
+  top: 26px;
+  position: relative;
+  font-size: 20px;
+  outline: none;
+}
+
+.bGo-heading button span {
+  position: relative;
+  top: -2px;
+  color: #C13584;
+}
+
+.bGo-heading button i {
+  padding-right: 5px;
+  color: #C13584;
+}
+
+.bGo-heading button:hover {
+  transition: 1s;
+  background: #3E3E3F;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+
+.bGo-footer-heading {
+  color: #fff;
+  font-size: 17px;
+  position: relative;
+  top: 70px;
+}
+
+.bGo-footer-heading:hover {
+  transition: 1s;
+  color: yellow;
+  font-weight: 600;
+}
+
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-10px);
+	}
+	100% {
+
+		transform: translatey(0px);
+	}
+}
+
+
+.bgo-languge {
+  user-select: none;
+ /* animation: float 3s ease-in-out infinite;*/
+    background-image: url("https://i.imgur.com/2F8QyJX.jpg");
+    width: 340px;
+    margin:auto;
+    height: 200px;
+    border-radius: 20px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bgo-languge h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+  top: 25px;
+  text-shadow: 2px 5px black;
+}
+
+
+
+.bgo-languge p  {
+  color: yellow;
+  font-weight: 600;
+  font-size:15px;
+  position: relative;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+
+.bgo-languge button {
+  width: 200px;
+  height: 30px;
+  border:none;
+  outline: none;
+  text-shadow: 1px 1px black;
+  background: none;
+  position: relative;
+  color: #fff;
+  left: 70px;
+  border-radius: 13px;
+  border: 3px solid #eeff00;
+  font-weight: 600;
+  top: 20px;
+}
+
+.bgo-languge button:hover {
+  background:#fff;
+  transition: 0.6s;
+}
+
+
+
+
+
+.bgo-quiz {
+  /* animation: float 3s ease-in-out infinite; */
+  user-select: none;
+  background-image: url("https://i.imgur.com/0obJMXB.gif");
+  
+  margin:auto;
+  height: 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+z-index: 0;
+}
+
+.bgo-quiz h1 {
+  text-align: center;
+  top: 55px;
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 2px 4px #2A2A2A;
+  position: relative;
+}
+
+
+.bgo-quiz p {
+  text-align: center;
+  top: 35px;
+  font-size: 20px;
+  color: yellow;
+  font-weight: 600;
+  text-shadow: 2px 4px #2A2A2A;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+
+.bgo-quiz-box {
+  height: 180px;
+  position: relative;
+  border-radius: 15px;
+  margin: auto;
+  
+  width: 330px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  z-index: 0;
+}
+
+.bgo-quiz-box h3 {
+  font-size: 26px;
+  position: relative;
+  text-align:center;
+  top: 15px;
+  text-shadow: 2px 2px black;
+  color: #fff;
+}
+
+.bgo-quiz-box button {
+  position: relative;
+  text-align: center;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  background:  none;
+  border: 3px solid #eeff00;
+  border-radius: 15px;
+  color: #fff;
+  outline: none;
+  width: 150px;
+  margin: 0;
+  height: 40px;
+  left: 95px;
+  top: 40px;
+}
+
+
+
+
+
+
+
+/* BaidodSchool All Devices */
+@media (min-width: 900px){
+.bGo-changing-text {
+  position: relative;
+  top: 90px;
+  margin:0;
+  font-size: 40px;
+  width: 400px;
+}
+
+.bGo-description {
+  top: 50px;
+  position:relative;
+}
+
+
+.bGo-heading button {
+  position: relative;
+  top: 70px;
+}
+
+.bGo-footer-heading {
+  position: relative;
+  top: 120px;
+}
+
+ .pc-space {
+   padding-top: 60px;
+ }
+.bgo-languge {
+  width: 600px;
+  
+  height: 300px;
+}
+.bgo-languge h3 {
+  font-size: 50px;
+}
+.bgo-languge p {
+  font-size: 20px;
+  position: relative;
+  
+}
+
+.bgo-languge button {
+  position: relative;
+  left: 150px;
+  width: 300px;
+  font-size: 20px;
+  text-shadow: 3px 3px black;
+  height: 40px;
+}
+.bGo-heading {
+  top: 70px;
+  position:relative;
+}
+ .bGo-nav {
+   height: 70px;
+ }
+ .bGo-nav-links p {
+   padding-right: 72%;
+   font-size: 30px;
+   position: relative;
+   left: 20px;
+ }
+.bGo-nav-links i {
+  font-size: 29px;
+}
+.bGo-nav-color {
+  font-size: 35px;
+}
+
+.bGo-heading {
+  height:500px;
+}
+
+.bgo-quiz {
+  position: relative;
+  height: 700px;
+}
+}
+
+@media (min-width: 700px){
+.bGo-heading-svg {
+  display: none;
+} 
+}
+
+@media (max-width: 320px){
+.bgo-quiz h1 {
+  font-size: 34px;
+}
+.bgo-quiz p {
+  font-size: 25px;
+}
+.bgo-quiz-box {
+  width: 280px;
+}
+.bgo-quiz-box button {
+position: relative;
+left: 70px;
+} 
+.bGo-heading-svg {
+  position: relative;
+  top: -42px;
+}
+.bgo-languge{
+  width: 270px;
+}
+.bgo-languge h3 {
+  font-size: 25px;
+}
+.bgo-languge p {
+  font-size: 13px;
+}
+.bgo-languge button {
+  width: 140px;
+  font-size: 15px;
+}
+}
